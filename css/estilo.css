@@ -86,4 +86,19 @@ section {
   animation: fadeIn 2s ease-in-out forwards;
 }
 
+.card-body {
+  background-color: #4B4444;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.img-c {
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+.cliente {
+  font-size: 20px;
+  color: white;
+  margin: 10px;
+}
+
 /*# sourceMappingURL=estilo.css.map */

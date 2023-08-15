@@ -2,6 +2,13 @@
 @import "header";
 @import "main";
 
+
+@mixin mixin() {
+    font-size: 20px;
+    color: white;
+    margin: 10px;
+
+}
 body {
     background-color: #201D1D  !important;
 
@@ -40,4 +47,19 @@ section {
     border-radius: 10px;
     animation: fadeIn 2s ease-in-out forwards;
   }
+
+  .card-body {
+    background-color: #4B4444;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  .img-c {
+    animation: fadeIn 2s ease-in-out forwards;
+  }
+
+  .cliente {
+    @include mixin()
+  }
+
+
 
