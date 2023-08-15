@@ -29,8 +29,18 @@
   border-radius: 10px;
   width: 1000px;
   height: 800px;
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 main {
   background-color: #201D1D;
 }
@@ -53,6 +63,11 @@ section {
 .flex-container img {
   max-width: 100%;
   height: auto;
+}
+
+.img-q {
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out forwards;
 }
 
 /*# sourceMappingURL=estilo.css.map */

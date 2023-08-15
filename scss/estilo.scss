@@ -20,3 +20,8 @@ section {
     max-width: 100%;
     height: auto;
   }
+
+  .img-q {
+    border-radius: 10px;
+    animation: fadeIn 2s ease-in-out forwards;
+  }
