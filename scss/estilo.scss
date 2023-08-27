@@ -54,11 +54,16 @@ section {
   }
 
   .img-c {
-    animation: fadeIn 2s ease-in-out forwards;
+    animation: fadeIn 2s ease-in-out forwards;         
   }
 
   .cliente {
     @include mixin()
+  }
+
+  .f-card {
+    width: 610px;
+    height: 1000px;
   }
 
   
